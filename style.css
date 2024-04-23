@@ -30,7 +30,7 @@ header{
     border-radius: 15px;
 }
 
-.addd{
+.input{
     padding: 15px 40px;
     border-bottom: 2px solid rgb(246, 248, 249);
 }
@@ -41,14 +41,29 @@ header{
     border-radius: 5px;
 }
 
-#task{
+#add-task{
     background-color: rgb(71, 173, 241);
     border: none;
 
 }
 
-#section{
+#add-section{
     background-color: white;
     border: 2px solid rgb(170, 170, 170);
     color: rgb(170, 170, 170);
+}
+
+.to-do{
+    padding: 25px 5px 0 40px;
+}
+
+
+.task-title{
+    padding-bottom: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.task-content{
+    padding: 0px 5px 15px 10px;
 }
