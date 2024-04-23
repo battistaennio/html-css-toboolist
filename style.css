@@ -29,3 +29,26 @@ header{
     background-color: white;
     border-radius: 15px;
 }
+
+.addd{
+    padding: 15px 40px;
+    border-bottom: 2px solid rgb(246, 248, 249);
+}
+
+.button {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#task{
+    background-color: rgb(71, 173, 241);
+    border: none;
+
+}
+
+#section{
+    background-color: white;
+    border: 2px solid rgb(170, 170, 170);
+    color: rgb(170, 170, 170);
+}
