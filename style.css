@@ -30,7 +30,7 @@ header{
 /* white container */
 
 #container{
-    height: 600px;
+    height: 630px;
     width: 750px;
     margin: 50px 25%;
     background-color: white;
@@ -77,6 +77,11 @@ header{
 
 .task-content{
     padding: 0px 5px 15px 10px;
+}
+
+.ttl-arrow{
+    font-size: 15px;
+    display: inline-block;
 }
 
 /* item check/x */
