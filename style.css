@@ -9,6 +9,7 @@ body{
     background-color: rgb(246, 248, 249);
 }
 
+/* logo */
 header{
     background-color: white;
     height: 70px;
@@ -22,6 +23,8 @@ header{
     font-size: 30px;
 }
 
+/* white container */
+
 #container{
     height: 600px;
     width: 750px;
@@ -29,6 +32,8 @@ header{
     background-color: white;
     border-radius: 15px;
 }
+
+/* Add task/section */
 
 .input{
     padding: 15px 40px;
@@ -53,6 +58,8 @@ header{
     color: rgb(170, 170, 170);
 }
 
+/* new task, today, upcoming structure */
+
 .to-do{
     padding: 25px 5px 0 40px;
 }
@@ -66,4 +73,25 @@ header{
 
 .task-content{
     padding: 0px 5px 15px 10px;
+}
+
+/* item check/x */
+
+.item{
+    border-radius: 50px;
+    padding: 0px 5px;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+
+}
+
+#check{
+    color: green;
+    border: 1px solid green;
+}
+
+#x{
+    color: red;
+    border: 1px solid red;
 }
