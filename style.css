@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-color: rgb(246, 248, 249);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* logo */
@@ -30,8 +30,6 @@ header{
 /* white container */
 
 #container{
-    height: 720px;
-    width: 750px;
     margin: 50px 25%;
     background-color: white;
     border-radius: 15px;
@@ -40,7 +38,7 @@ header{
 /* Add task/section */
 
 .input{
-    padding: 15px 40px;
+    padding: 15px 50px;
     border-bottom: 2px solid rgb(246, 248, 249);
 }
 
@@ -66,7 +64,7 @@ header{
 /* new task, today, upcoming structure */
 
 .to-do{
-    padding: 25px 5px 0 40px;
+    padding: 25px 50px 0 50px;
 }
 
 
@@ -85,6 +83,8 @@ header{
     display: inline-block;
 }
 
+/* content box */
+
 .content-box{
     padding: 9px 16px;
     border-radius: 15px;
@@ -94,27 +94,27 @@ header{
     background-color: red;
 }
 
-#editorial{
+.editorial{
     background-color: rgb(71, 173, 241);
 }
 
-#q1{
+.q1{
     background-color: rgb(154, 111, 227);
 }
 
-#recruiting{
+.recruiting{
     background-color: rgb(100, 192, 169);
 }
 
-#mobile{
+.mobile{
     background-color: rgb(242, 156, 48);
 }
 
-#website{
+.website{
     background-color: rgb(232, 163, 201);
 }
 
-#sales{
+.sales{
     background-color: rgb(176, 201, 38);
 }
 /* item check/x */
@@ -129,12 +129,12 @@ header{
 
 }
 
-#check{
+.check{
     color: green;
     border: 1px solid green;
 }
 
-#x{
+.x{
     color: red;
     border: 1px solid red;
 }
